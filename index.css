@@ -1,0 +1,128 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 375px;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+}
+
+.posts{
+    background: #EDEDED;
+    margin-top: 67px;
+    width: 375px;
+    height: 545px;
+    background: #FFFFFF;
+}
+
+.header{
+    position: fixed;
+    width: 359px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #C6C6C6;
+    padding: 0 8px 5px 8px;
+    background: #FFFFFF;
+}
+
+.logo{
+    width: 127px;
+}
+
+
+.avatar{
+    width: 34px;
+    border-radius: 50px;
+}
+
+.post2{
+    background: yellow;
+    height: 100vh;
+}
+
+.myDiv{
+    width: 375px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+#profileImg{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.imgNameLocDiv{
+    display: flex; 
+}
+
+.nameLocDiv{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+#profileName{
+    margin: 0;
+    font-weight: 700;
+    font-size: 13px;
+    color: #000000;
+}
+
+#profileLoc{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#postImg{
+    width: 100%;
+    height: 375px;
+}
+
+.postInfoDiv{
+    margin-bottom: 0;
+}
+
+.postLikeCommentShareDiv{
+    margin: 8px;
+}
+
+#heartCommentShare{
+    width: 23.3px;
+    height: 22.13px;
+    margin-right: 8px;
+}
+
+#postLikesCount{
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+    
+.usernameCommentDiv{
+    display: flex;
+    margin-left: 12px; 
+}
+
+#postUsername{
+    font-weight: 700;
+}
+
+#postUsername, #postComment{
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+#postComment{
+    margin-left: 3px;
+}
